@@ -36,12 +36,12 @@ This project analyzes and optimizes inventory management using machine learning 
    - Email: giauntn21411ca@st.uel.edu.vn
 
 **Include Credits**
-   - Leader: Nguyen Thi Ngoc Giau - K21411197
+   - Leader: Nguyen Thi Ngoc Giau - K214111970
    - Member:
      + Nguyen Trung Hieu Hien - K214111971
-     + Nguyen Thi Thu Ngan - K21411197
-     + Nguyen Trinh Thao Nghi - K21411197
-     + Tran Duc Anh Duy - K214111
+     + Nguyen Thi Thu Ngan - K214111974
+     + Nguyen Trinh Thao Nghi - K214111975
+     + Tran Duc Anh Duy - K214110859
 
 **Date of Data Collection:** July, 2024
 
