@@ -26,7 +26,8 @@ This project analyzes and optimizes inventory management using machine learning 
        - **Description:** Contains sales, stock, and cost data.
      - `cleaned_data.csv`
        - **Description:** Preprocessed and cleaned dataset for analysis.
-
+   - **Source:**
+     - Looker Ecommerce BigQuery Dataset from Kaggle  Install Python 3.x from [Python.org](https://www.python.org/).
 ## Further Information
 
 **Title:** Optimizing Inventory Management through Product Classification with K-MEANS, K-MEANS++, and K-MEDOIDS
