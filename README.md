@@ -1,4 +1,4 @@
-# Optimizing Inventory Management through Product Classification with K-MEANS, K-MEANS++, and K-MEDOIDS
+# Optimizing Inventory Management through Product Classification with K-MEANS, K-MEANS++, and K-MEDOIDS 📊📈
 
 ## Introduction
 This project aims to analyze and optimize inventory management using machine learning clustering algorithms. The following sections provide an overview of the documents and files included in the project.
@@ -8,14 +8,13 @@ This project aims to analyze and optimize inventory management using machine lea
 1. **Source Code**
    - **Python**: The source code for data analysis and machine learning models is implemented in Python. This includes notebooks and scripts for data preprocessing, clustering algorithms (K-Means, K-Means++, K-Medoids), and visualization.
      - **Files:**
-       - `kmeans++ (1).ipynb`: Contains Python code for K-Means++ clustering algorithm.
        - `eda.ipynb`: Contains exploratory data analysis code.
+       - `k.ipynb`: Contains code for determining the optimal number of clusters.
+       - `kmeans.ipynb`: Python code for standard K-Means clustering algorithm.
+       - `kmeans++.ipynb`: Contains Python code for K-Means++ clustering algorithm.
+       - `K-Medoids.ipynb`: Python code for K-Medoids clustering algorithm.
        - `evaluate.ipynb`: Code for evaluating the clustering performance.
-       - `k (2).ipynb`: Contains code for determining the optimal number of clusters.
-       - `kmeans (1).ipynb`: Python code for standard K-Means clustering algorithm.
-       - `K-Medoids (1).ipynb`: Python code for K-Medoids clustering algorithm.
-       - `eda scratter plot.ipynb`: Contains scatter plot visualizations for exploratory data analysis.
-
+    
 2. **Power BI Files**
    - **Files:**
      - `stock_product_category.pbix`: Contains data visualization dashboards used to analyze the inventory data.
@@ -23,11 +22,11 @@ This project aims to analyze and optimize inventory management using machine lea
      - `kmeans++ insight.pbix`: Power BI file for insights derived from the K-Means++ clustering analysis.
 
 3. **Turnitin Checked File**
-   - **File:** `DA_overview_Turnitin.pdf`
+   - **File:** `sửa.pdf`
    - **Description:** The report checked for similarity using Turnitin. The similarity index is under 30%, and no AI writing is detected.
 
 4. **Report Files**
-   - **Files:** `DA_overview.docx`, `DA_overview.pdf`
+   - **Files:** `sửa.docx`, `sửa.pdf`
    - **Description:** The final report in Word and PDF formats after rewriting based on Turnitin checking. The report includes a page of responsibilities, the percentage of contributions, and the score of each member. The team leader has discussed these elements with the teammates.
 
 5. **Datasets**
