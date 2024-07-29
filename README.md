@@ -8,12 +8,7 @@ This project aims to analyze and optimize inventory management using machine lea
 1. **Source Code**
    - **Python**: The source code for data analysis and machine learning models is implemented in Python. This includes notebooks and scripts for data preprocessing, clustering algorithms (K-Means, K-Means++, K-Medoids), and visualization.
      - **Files:**
-       - `eda.ipynb`: Contains exploratory data analysis code.
-       - `k.ipynb`: Contains code for determining the optimal number of clusters.
-       - `kmeans.ipynb`: Python code for standard K-Means clustering algorithm.
-       - `kmeans++.ipynb`: Contains Python code for K-Means++ clustering algorithm.
-       - `K-Medoids.ipynb`: Python code for K-Medoids clustering algorithm.
-       - `evaluate.ipynb`: Code for evaluating the clustering performance.
+       - `fullcode.ipynb`: Contains the complete Python code for exploratory data analysis, determining the optimal number of clusters, standard K-Means clustering, K-Means++ clustering, K-Medoids clustering, and evaluating the clustering performance.
     
 2. **Power BI Files**
    - **Files:**
@@ -40,34 +35,15 @@ This project aims to analyze and optimize inventory management using machine lea
 
 **Title:** Optimizing Inventory Management through Product Classification with K-MEANS, K-MEANS++, and K-MEDOIDS
 
-**Principal Investigator:**  
-Name: [Your Name]  
-Institution: [Your Institution]  
-Address: [Your Address]  
-Email: [Your Email]
-
-**Co-Investigators:**  
-Name: [Co-Investigator Name]  
-Institution: [Institution]  
-Address: [Address]  
-Email: [Email]
-
 **Contact Person for Questions:**  
-Name: [Your Name]  
-Email: [Your Email]
+Name: Nguyen Thi Ngoc Giau 
+Email: giauntn21411ca@st.uel.edu.vn
 
-**Date of Data Collection:** January 2023 - January 2024
+**Date of Data Collection:** July, 2024
 
-**Geographic Location of Data Collection:**  
-City: [City]  
-Country: [Country]
-
-**Keywords:** Inventory Management, Machine Learning, Clustering Algorithms, E-commerce, K-Means, K-Means++, K-Medoids
+**Keywords:** Inventory Management, Clustering Algorithms, E-commerce, K-Means, K-Means++, K-Medoids
 
 **Language:** English
-
-**Funding Sources:**  
-This project was supported by [Funding Source].
 
 ## How to Write a Good README – A Step by Step Guide
 
