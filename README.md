@@ -43,11 +43,8 @@ This project analyzes and optimizes inventory management using machine learning 
      + Nguyen Trinh Thao Nghi - K214111975
      + Tran Duc Anh Duy - K214110859
 
-**Date of Data Collection:** July, 2024
-
 **Keywords:** Optimize Inventory, Inventory Management, Clustering Algorithms, E-commerce, K-Means, K-Means++, K-Medoids
 
 **Language:** English
 
-## Conclusion
-This README provides a comprehensive overview of the project's documentation, ensuring clarity and ease of use for collaborators and users. By following the guidelines outlined above, you can create a detailed and helpful README for any project.
+**Date of Data Collection:** July, 2024
