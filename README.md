@@ -38,7 +38,7 @@ This project aims to analyze and optimize inventory management using machine lea
 
 ## General Information
 
-**Title:** Inventory Management Optimization using Machine Learning Clustering Algorithms
+**Title:** Optimizing Inventory Management through Product Classification with K-MEANS, K-MEANS++, and K-MEDOIDS
 
 **Principal Investigator:**  
 Name: [Your Name]  
@@ -92,25 +92,17 @@ This project was supported by [Funding Source].
    - Provide sample commands to run the notebooks.
 
 6. **Include Credits**
-   - List collaborators, team members, and any referenced materials or tutorials.
-
-7. **Add a License**
-   - Specify the license under which the project is released. Common licenses include GPL, MIT, etc.
+   - Leader: Nguyen Thi Ngoc Giau - K21411197
+   - Member:
+     + Nguyen Trung Hieu Hien - K214111971
+     + Nguyen Thi Thu Ngan - K21411197
+     + Nguyen Trinh Thao Nghi - K21411197
+     + Tran Duc Anh Duy - K214111
 
 ### Additional Sections (Optional)
 
 8. **Badges**
    - Include badges to display project stats or important tools.
-
-9. **How to Contribute to the Project**
-   - Provide guidelines for contributing to the project, especially if it's open-source.
-
-10. **Include Tests**
-   - Write tests for the application and provide instructions on how to run them.
-
-### Extra Points
-- **Keep it up-to-date**: Ensure the README is always updated with any changes in the project.
-- **Pick a language**: Write the README in English for global accessibility. Use translation tools if necessary.
 
 ## Conclusion
 This README provides a comprehensive overview of the project's documentation, ensuring clarity and ease of use for collaborators and users. By following the guidelines outlined above, you can create a detailed and helpful README for any project.
