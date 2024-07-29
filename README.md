@@ -1,14 +1,14 @@
 # Optimizing Inventory Management through Product Classification with K-MEANS, K-MEANS++, and K-MEDOIDS 📊📈
 
 ## Introduction
-This project aims to analyze and optimize inventory management using clustering algorithms. The following sections provide an overview of the documents and files included in the project.
+This project analyzes and optimizes inventory management using machine learning clustering algorithms such as K-Means, K-Means++, and K-Medoids. The goal is to improve inventory turnover and reduce excess stock through data-driven insights.
 
 ## Contents
 
 1. **Source Code**
    - **Python**: The source code for data analysis and machine learning models is implemented in Python. This includes notebooks and scripts for data preprocessing, clustering algorithms (K-Means, K-Means++, K-Medoids), and visualization.
      - **Files:**
-       - `fullcode.ipynb`: Contains the complete Python code for exploratory data analysis, determining the optimal number of clusters, standard K-Means clustering, K-Means++ clustering, K-Medoids clustering, and evaluating the clustering performance.
+       - `fullcode.ipynb`: Contains the complete Python code for exploratory data analysis, data pre-processing, determining the optimal number of clusters, standard K-Means clustering, K-Means++ clustering, K-Medoids clustering, and evaluating the clustering performance.
     
 2. **Power BI Files**
    - **Files:**
@@ -16,15 +16,11 @@ This project aims to analyze and optimize inventory management using clustering 
      - `sale.pbix`: Power BI file for sales data analysis.
      - `kmeans++ insight.pbix`: Power BI file for insights of 3 levels of cluster derived from the K-Means++ clustering analysis.
 
-3. **Turnitin Checked File**
-   - **File:** `sửa.pdf`
-   - **Description:** The report checked for similarity using Turnitin. The similarity index is under 30%, and no AI writing is detected.
-
-4. **Report Files**
+3. **Report Files**
    - **Files:** `sửa.docx`, `sửa.pdf`
-   - **Description:** The final report in Word and PDF formats after rewriting based on Turnitin checking. The report includes a page of responsibilities, the percentage of contributions, and the score of each member. The team leader has discussed these elements with the teammates.
+   - **Description:** The study utilizes K-Means, K-Means++, and K-Medoids clustering algorithms to classify products, aiming to enhance inventory management. By analyzing data from e-commerce platforms, the research demonstrates that clustering can reduce holding costs, prevent overstocking, and improve decision-making processes in inventory control​​​​​​.
 
-5. **Datasets**
+4. **Datasets**
    - **Files:**
      - `final_data_sale_stock_cost.xlsx`
        - **Description:** Contains sales, stock, and cost data.
@@ -36,22 +32,16 @@ This project aims to analyze and optimize inventory management using clustering 
 **Title:** Optimizing Inventory Management through Product Classification with K-MEANS, K-MEANS++, and K-MEDOIDS
 
 **Contact Person for Questions:**  
-Name: Nguyen Thi Ngoc Giau 
-Email: giauntn21411ca@st.uel.edu.vn
+   - Name: Nguyen Thi Ngoc Giau 
+   - Email: giauntn21411ca@st.uel.edu.vn
 
 **Date of Data Collection:** July, 2024
 
-**Keywords:** Inventory Management, Clustering Algorithms, E-commerce, K-Means, K-Means++, K-Medoids
+**Keywords:** Optimize Inventory, Inventory Management, Clustering Algorithms, E-commerce, K-Means, K-Means++, K-Medoids
 
 **Language:** English
 
 ## How to Write a Good README – A Step by Step Guide
-
-1. **Project's Title**
-   - Optimizing Inventory Management through Product Classification with K-MEANS, K-MEANS++, and K-MEDOIDS
-
-2. **Project Description**
-   - This project analyzes and optimizes inventory management using machine learning clustering algorithms such as K-Means, K-Means++, and K-Medoids. The goal is to improve inventory turnover and reduce excess stock through data-driven insights.
 
 3. **Table of Contents (Optional)**
    - If the README is lengthy, include a table of contents for easy navigation.
