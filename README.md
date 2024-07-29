@@ -1,7 +1,7 @@
 # Optimizing Inventory Management through Product Classification with K-MEANS, K-MEANS++, and K-MEDOIDS 📊📈
 
 ## Introduction
-This project aims to analyze and optimize inventory management using machine learning clustering algorithms. The following sections provide an overview of the documents and files included in the project.
+This project aims to analyze and optimize inventory management using clustering algorithms. The following sections provide an overview of the documents and files included in the project.
 
 ## Contents
 
