@@ -21,16 +21,15 @@ This project analyzes and optimizes inventory management using machine learning 
    - **Description:** The study utilizes K-Means, K-Means++, and K-Medoids clustering algorithms to classify products, aiming to enhance inventory management. By analyzing data from e-commerce platforms, the research demonstrates that clustering can reduce holding costs, prevent overstocking, and improve decision-making processes in inventory control​​​​​​.
 
 4. **Datasets**
-   - **Files:**
-     - `final_data_sale_stock_cost.xlsx`
-       - **Description:** Contains sales, stock, and cost data.
-     - `cleaned_data.csv`
-       - **Description:** Preprocessed and cleaned dataset for analysis.
    - **Source:**
-     - Looker Ecommerce BigQuery Dataset from Kaggle  Install Python 3.x from [Python.org](https://www.python.org/).
+     - Looker Ecommerce BigQuery Dataset from Kaggle  Install Python 3.x from [Kaggle.com]([https://www.python.org/](https://www.kaggle.com/datasets/mustafakeser4/looker-ecommerce-bigquery-dataset?fbclid=IwZXh0bgNhZW0CMTAAAR2_ZUOvZ-82FVKHHkn-z1GfBxC_tZ_D15G5-gUaj7iAv8lekVpyKzZv26s_aem_CLkHKGJwHhXB4-EgF0NjBg&select=order_items.csv)).
+   - **Files:**
+     - `cleaned_data.csv`
+       - **Description:** Contains 29,044 records with information about products, including product ID, cost, category, name, department, and sale price. Used for analyzing and preparing product data for subsequent steps in the research.
+     - `final_data_sale_stock_cost.xlsx`
+       - **Description:** Contains 26,719 records with detailed product information such as product ID, name, category, department, creation time, sale time, sale quantity, stock quantity, and total cost. Used for evaluating sales performance and inventory management, supporting analysis and optimization of inventory control.
+   
 ## Further Information
-
-**Title:** Optimizing Inventory Management through Product Classification with K-MEANS, K-MEANS++, and K-MEDOIDS
 
 **Contact Person for Questions:**  
    - Name: Nguyen Thi Ngoc Giau 
@@ -49,20 +48,6 @@ This project analyzes and optimizes inventory management using machine learning 
 **Keywords:** Optimize Inventory, Inventory Management, Clustering Algorithms, E-commerce, K-Means, K-Means++, K-Medoids
 
 **Language:** English
-
-## How to Write a Good README – A Step by Step Guide
-
-3. **Table of Contents (Optional)**
-   - If the README is lengthy, include a table of contents for easy navigation.
-
-4. **How to Install and Run the Project**
-   - Provide step-by-step instructions on how to set up the development environment and run the project. 
-   - Ensure Python and necessary libraries are installed.
-   - Instructions to open and explore Power BI files.
-
-5. **How to Use the Project**
-   - Include examples and instructions for using the project, supported by visual aids like screenshots if necessary.
-   - Provide sample commands to run the notebooks.
 
 ## Conclusion
 This README provides a comprehensive overview of the project's documentation, ensuring clarity and ease of use for collaborators and users. By following the guidelines outlined above, you can create a detailed and helpful README for any project.
