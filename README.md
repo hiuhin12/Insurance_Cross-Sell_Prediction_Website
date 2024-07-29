@@ -12,17 +12,17 @@ This project analyzes and optimizes inventory management using machine learning 
     
 2. **Power BI Files**
    - **Files:**
-     - `stock_product_category.pbix`: Contains data visualization dashboards used to analyze the inventory data.
-     - `sale.pbix`: Power BI file for sales data analysis.
-     - `kmeans++ insight.pbix`: Power BI file for insights of 3 levels of cluster derived from the K-Means++ clustering analysis.
-
+     - `stock_product_category.pbix`: This dashboard displays stock quantity over time and analyzes inventory levels by product category.
+     - `sale.pbix`: This dashboard focuses on analyzing sales quantity and total cost, as well as sales quantity by product category.
+     - `kmeans++ insight.pbix`: This dashboard provides insights from K-Means++ clustering, including analysis of product clusters based on sales quantity, stock quantity, and total cost.
+       
 3. **Report Files**
    - **Files:** `sửa.docx`, `sửa.pdf`
    - **Description:** The study utilizes K-Means, K-Means++, and K-Medoids clustering algorithms to classify products, aiming to enhance inventory management. By analyzing data from e-commerce platforms, the research demonstrates that clustering can reduce holding costs, prevent overstocking, and improve decision-making processes in inventory control​​​​​​.
 
 4. **Datasets**
    - **Source:**
-     - Looker Ecommerce BigQuery Dataset from Kaggle  Install Python 3.x from [Kaggle.com]([https://www.python.org/](https://www.kaggle.com/datasets/mustafakeser4/looker-ecommerce-bigquery-dataset?fbclid=IwZXh0bgNhZW0CMTAAAR2_ZUOvZ-82FVKHHkn-z1GfBxC_tZ_D15G5-gUaj7iAv8lekVpyKzZv26s_aem_CLkHKGJwHhXB4-EgF0NjBg&select=order_items.csv)).
+     - Looker Ecommerce BigQuery Dataset from [Kaggle.com](https://www.kaggle.com/datasets/mustafakeser4/looker-ecommerce-bigquery-dataset?fbclid=IwZXh0bgNhZW0CMTAAAR2_ZUOvZ-82FVKHHkn-z1GfBxC_tZ_D15G5-gUaj7iAv8lekVpyKzZv26s_aem_CLkHKGJwHhXB4-EgF0NjBg&select=order_items.csv).
    - **Files:**
      - `cleaned_data.csv`
        - **Description:** Contains 29,044 records with information about products, including product ID, cost, category, name, department, and sale price. Used for analyzing and preparing product data for subsequent steps in the research.
