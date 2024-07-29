@@ -47,10 +47,8 @@ Email: giauntn21411ca@st.uel.edu.vn
 
 ## How to Write a Good README – A Step by Step Guide
 
-### What to Include in your README
-
 1. **Project's Title**
-   - Inventory Management Optimization using Machine Learning Clustering Algorithms
+   - Optimizing Inventory Management through Product Classification with K-MEANS, K-MEANS++, and K-MEDOIDS
 
 2. **Project Description**
    - This project analyzes and optimizes inventory management using machine learning clustering algorithms such as K-Means, K-Means++, and K-Medoids. The goal is to improve inventory turnover and reduce excess stock through data-driven insights.
@@ -74,11 +72,6 @@ Email: giauntn21411ca@st.uel.edu.vn
      + Nguyen Thi Thu Ngan - K21411197
      + Nguyen Trinh Thao Nghi - K21411197
      + Tran Duc Anh Duy - K214111
-
-### Additional Sections (Optional)
-
-8. **Badges**
-   - Include badges to display project stats or important tools.
 
 ## Conclusion
 This README provides a comprehensive overview of the project's documentation, ensuring clarity and ease of use for collaborators and users. By following the guidelines outlined above, you can create a detailed and helpful README for any project.
