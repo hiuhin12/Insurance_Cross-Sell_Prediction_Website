@@ -27,13 +27,21 @@ This project analyzes and optimizes inventory management using machine learning 
      - `cleaned_data.csv`
        - **Description:** Preprocessed and cleaned dataset for analysis.
 
-## General Information
+## Further Information
 
 **Title:** Optimizing Inventory Management through Product Classification with K-MEANS, K-MEANS++, and K-MEDOIDS
 
 **Contact Person for Questions:**  
    - Name: Nguyen Thi Ngoc Giau 
    - Email: giauntn21411ca@st.uel.edu.vn
+
+**Include Credits**
+   - Leader: Nguyen Thi Ngoc Giau - K21411197
+   - Member:
+     + Nguyen Trung Hieu Hien - K214111971
+     + Nguyen Thi Thu Ngan - K21411197
+     + Nguyen Trinh Thao Nghi - K21411197
+     + Tran Duc Anh Duy - K214111
 
 **Date of Data Collection:** July, 2024
 
@@ -54,14 +62,6 @@ This project analyzes and optimizes inventory management using machine learning 
 5. **How to Use the Project**
    - Include examples and instructions for using the project, supported by visual aids like screenshots if necessary.
    - Provide sample commands to run the notebooks.
-
-6. **Include Credits**
-   - Leader: Nguyen Thi Ngoc Giau - K21411197
-   - Member:
-     + Nguyen Trung Hieu Hien - K214111971
-     + Nguyen Thi Thu Ngan - K21411197
-     + Nguyen Trinh Thao Nghi - K21411197
-     + Tran Duc Anh Duy - K214111
 
 ## Conclusion
 This README provides a comprehensive overview of the project's documentation, ensuring clarity and ease of use for collaborators and users. By following the guidelines outlined above, you can create a detailed and helpful README for any project.
