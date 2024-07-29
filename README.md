@@ -14,7 +14,7 @@ This project aims to analyze and optimize inventory management using machine lea
    - **Files:**
      - `stock_product_category.pbix`: Contains data visualization dashboards used to analyze the inventory data.
      - `sale.pbix`: Power BI file for sales data analysis.
-     - `kmeans++ insight.pbix`: Power BI file for insights derived from the K-Means++ clustering analysis.
+     - `kmeans++ insight.pbix`: Power BI file for insights of 3 levels of cluster derived from the K-Means++ clustering analysis.
 
 3. **Turnitin Checked File**
    - **File:** `sửa.pdf`
