@@ -17,7 +17,7 @@ This project analyzes and optimizes inventory management using machine learning 
      - `Kmeans_plus_insight_dashboard.pbix`: This dashboard provides insights from K-Means++ clustering, including analysis of product clusters based on sales quantity, stock quantity, and total cost.
        
 3. **Report Files**
-   - **Files:** `sửa.docx`, `sửa.pdf`
+   - **Files:** `235MI7101_Group6_FinalProject.docx`, `235MI7101_Group6_FinalProject.pdf`
    - **Description:** The study utilizes K-Means, K-Means++, and K-Medoids clustering algorithms to classify products, aiming to enhance inventory management. By analyzing data from e-commerce platforms, the research demonstrates that clustering can reduce holding costs, prevent overstocking, and improve decision-making processes in inventory control​​​​​​.
 
 4. **Datasets**
@@ -28,6 +28,9 @@ This project analyzes and optimizes inventory management using machine learning 
        - **Description:** Contains 29,044 records with information about products, including product ID, cost, category, name, department, and sale price. Used for analyzing and preparing product data for subsequent steps in the research.
      - `final_data_sale_stock_cost.xlsx`
        - **Description:** Contains 26,719 records with detailed product information such as product ID, name, category, department, creation time, sale time, sale quantity, stock quantity, and total cost. Used for evaluating sales performance and inventory management, supporting analysis and optimization of inventory control.
+
+5. **Gantt Chart**
+   - The Gantt chart outlines the project timeline from June 25, 2024, to July 30, 2024, covering phases from idea research, data preparation, analysis, and model evaluation to conclusion and presentation preparation, with all tasks completed on schedule.    
    
 ## Further Information
 
