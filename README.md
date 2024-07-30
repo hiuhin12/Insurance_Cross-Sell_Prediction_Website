@@ -32,9 +32,9 @@ This project analyzes and optimizes inventory management using machine learning 
          - `users.csv`
    - **Cleaned Data:**
      - `Data_model.csv`
-       - **Description:** Contains 29,044 records with information about products, including product ID, cost, category, name, department, and sale price. Used for analyzing and preparing product data for subsequent steps in the research.
+       - **Description:** Contains detailed product information such as product ID, name, category, sales quantity, and stock quantity. The data is used for analyzing and optimizing inventory management.
      - `Clustering_data.csv`
-       - **Description:** Contains 29,044 records with information about products, including product ID, cost, category, name, department, and sale price. Used for analyzing and preparing product data for subsequent steps in the research.
+       - **Description:** This data supports product clustering to optimize inventory management using clustering algorithms.
 
 5. **Gantt Chart**
    - The Gantt chart outlines the project timeline from June 25, 2024, to July 30, 2024, covering phases from idea research, data preparation, analysis, and model evaluation to conclusion and presentation preparation, with all tasks completed on schedule.    
