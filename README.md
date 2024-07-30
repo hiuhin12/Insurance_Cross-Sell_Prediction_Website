@@ -11,10 +11,9 @@ This project analyzes and optimizes inventory management using machine learning 
        - `Fullcode.ipynb`: Contains the complete Python code for exploratory data analysis, data pre-processing, determining the optimal number of clusters, standard K-Means clustering, K-Means++ clustering, K-Medoids clustering, and evaluating the clustering performance.
     
 2. **Power BI Files**
-   - **Files:**
-     - `Product_dashboard.pbix`: This dashboard displays stock quantity over time and analyzes inventory levels by product category.
-     - `Sale_dashboard.pbix`: This dashboard focuses on analyzing sales quantity and total cost, as well as sales quantity by product category.
-     - `Kmeans_plus_insight_dashboard.pbix`: This dashboard provides insights from K-Means++ clustering, including analysis of product clusters based on sales quantity, stock quantity, and total cost.
+   - `Product_dashboard.pbix`: This dashboard displays stock quantity over time and analyzes inventory levels by product category.
+   - `Sale_dashboard.pbix`: This dashboard focuses on analyzing sales quantity and total cost, as well as sales quantity by product category.
+   - `Kmeans_plus_insight_dashboard.pbix`: This dashboard provides insights from K-Means++ clustering, including analysis of product clusters based on sales quantity, stock quantity, and total cost.
        
 3. **Report Files**
    - **Files:** `235MI7101_Group6_FinalProject.docx`, `235MI7101_Group6_FinalProject.pdf`
