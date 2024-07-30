@@ -20,13 +20,21 @@ This project analyzes and optimizes inventory management using machine learning 
    - **Description:** The study utilizes K-Means, K-Means++, and K-Medoids clustering algorithms to classify products, aiming to enhance inventory management. By analyzing data from e-commerce platforms, the research demonstrates that clustering can reduce holding costs, prevent overstocking, and improve decision-making processes in inventory control​​​​​​.
 
 4. **Datasets**
-   - **Source:**
+   - **Data Source:**
      - Looker Ecommerce BigQuery Dataset from [Kaggle.com](https://www.kaggle.com/datasets/mustafakeser4/looker-ecommerce-bigquery-dataset?fbclid=IwZXh0bgNhZW0CMTAAAR2_ZUOvZ-82FVKHHkn-z1GfBxC_tZ_D15G5-gUaj7iAv8lekVpyKzZv26s_aem_CLkHKGJwHhXB4-EgF0NjBg&select=order_items.csv).
-   - **Files:**
-     - `cleaned_data.csv`
+     - **Files:**
+         - `distribution_centers.csv`
+         - `events.csv`
+         - `inventory_items.csv`
+         - `order_items.csv`
+         - `orders.csv`
+         - `products.csv`
+         - `users.csv`
+   - **Cleaned Data:**
+     - `Data_model.csv`
        - **Description:** Contains 29,044 records with information about products, including product ID, cost, category, name, department, and sale price. Used for analyzing and preparing product data for subsequent steps in the research.
-     - `final_data_sale_stock_cost.xlsx`
-       - **Description:** Contains 26,719 records with detailed product information such as product ID, name, category, department, creation time, sale time, sale quantity, stock quantity, and total cost. Used for evaluating sales performance and inventory management, supporting analysis and optimization of inventory control.
+     - `Clustering_data.csv`
+       - **Description:** Contains 29,044 records with information about products, including product ID, cost, category, name, department, and sale price. Used for analyzing and preparing product data for subsequent steps in the research.
 
 5. **Gantt Chart**
    - The Gantt chart outlines the project timeline from June 25, 2024, to July 30, 2024, covering phases from idea research, data preparation, analysis, and model evaluation to conclusion and presentation preparation, with all tasks completed on schedule.    
