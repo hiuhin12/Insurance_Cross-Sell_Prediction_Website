@@ -23,13 +23,13 @@ This project analyzes and optimizes inventory management using machine learning 
    - **Data Source:**
      - Looker Ecommerce BigQuery Dataset from [Kaggle.com](https://www.kaggle.com/datasets/mustafakeser4/looker-ecommerce-bigquery-dataset?fbclid=IwZXh0bgNhZW0CMTAAAR2_ZUOvZ-82FVKHHkn-z1GfBxC_tZ_D15G5-gUaj7iAv8lekVpyKzZv26s_aem_CLkHKGJwHhXB4-EgF0NjBg&select=order_items.csv).
      - **Files:**
-         - `distribution_centers.csv`
+         - `distribution_centers.csv`: Contains information about distribution centers including ID, name, latitude, and longitude. ​
          - `events.csv`
          - `inventory_items.csv`
-         - `order_items.csv`
-         - `orders.csv`
-         - `products.csv`
-         - `users.csv`
+         - `order_items.csv`: Contains details of items in each order, including order ID, product ID, status, and sale price.
+         - `orders.csv`: Contains order information including order ID, user ID, status, and timestamps for order events.
+         - `products.csv`: Contains product information including cost, category, name, brand, and distribution center ID.
+         - `users.csv`: Contains user details including personal information, address, and traffic source.
    - **Cleaned Data:**
      - `Data_model.csv`
        - **Description:** Contains detailed product information such as product ID, name, category, sales quantity, and stock quantity. The data is used for analyzing and optimizing inventory management.
