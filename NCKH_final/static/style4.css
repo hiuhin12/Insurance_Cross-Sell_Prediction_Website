@@ -1,0 +1,56 @@
+/* ENTERINFOR RESULT */
+body {
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+    background-color: #F1EBE6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.results-container {
+    text-align: center;
+}
+
+.results-container h1 {
+    font-family: 'Michroma';
+    font-size: 40px;
+}
+
+.results-card {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    width: 1000px;
+    height: 200px;
+    font-size: 18px;
+}
+
+.highlight {
+    color: #dd5c24; 
+    font-weight: bold;
+}
+
+.button-container button {
+    background-color: #dd5c24;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Open Sans';
+}
+
+.button-container button:hover {
+    background-color: #bb4d1a; 
+}

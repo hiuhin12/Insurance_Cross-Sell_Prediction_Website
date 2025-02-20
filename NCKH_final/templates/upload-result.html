@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vehicle Insurance Prediction</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style5.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class='container-heading'>Vehicle Insurance Prediction</h1>
+        </div>
+    
+        <h2>Result</h2>
+        <table class="bordered-table">
+            <tr>
+                <th>Gender</th>
+                <th>Age</th>
+                <th>Driving License</th>
+                <th>Region Code</th>
+                <th>Previously Insured</th>
+                <th>Vehicle Age</th>
+                <th>Vehicle Damage</th>
+                <th>Annual Premium</th>
+                <th>Policy Sales Channel</th>
+                <th>Vintage</th>
+                <th>Prediction</th>
+                <th>Classification</th>
+            </tr>
+            {% for record in records %}
+            <tr>
+                <td>{{ record['Gender'] }}</td>
+                <td>{{ record['Age'] }}</td>
+                <td>{{ record['Driving_License'] }}</td>
+                <td>{{ record['Region_Code'] }}</td>
+                <td>{{ record['Previously_Insured'] }}</td>
+                <td>{{ record['Vehicle_Age'] }}</td>
+                <td>{{ record['Vehicle_Damage'] }}</td>
+                <td>{{ record['Annual_Premium'] }}</td>
+                <td>{{ record['Policy_Sales_Channel'] }}</td>
+                <td>{{ record['Vintage'] }}</td>
+                <td>{{ record['Prediction'] }}</td>
+                <td>{{ record['Classification'] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+    </html>

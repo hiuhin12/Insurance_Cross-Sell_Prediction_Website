@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Enter Information</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+    </head>
+    <body>
+        <!-- Header menu -->
+        <ul class="header">
+            <div class="logo">
+                <img src="{{ url_for('static', filename='images/logo.png') }}">
+            </div>
+            <li><a href="{{ url_for('home') }}">HOME</a></li>
+        <li class="predict">
+                <a href="predict.html">PREDICT</a>
+                <ul class="sub-menu">
+                    <li><a href="{{ url_for('enterinformation') }}">Enter Information</a></li>
+                    <li><a href="{{ url_for('uploaddata') }}">Upload Data</a></li>
+                </ul>
+            </li>   
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+
+        <!-- Main content -->
+        <main>
+            <div class="enter-infor">
+                <h1>ENTER INFORMATION</h1>
+                <form class="enter-form" action="/enter-information/result" method="POST">
+                    <!-- Left Column -->
+                    <div class="column">
+                        <fieldset>
+                            <legend><label for="id">ID</label></legend>
+                            <input type="text" id="id" name="id" placeholder="Enter ID">
+                        </fieldset>
+                        <fieldset>
+                            <legend><label for="Gender">Gender</label></legend>
+                            <input type="radio" id="female" name="Gender" value="0">
+                            <label for="female">Female</label>
+                            <input type="radio" id="male" name="Gender" value="1">
+                            <label for="male">Male</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend><label for="Age">Age</label></legend>
+                            <input type="text" id="Age" name="Age" placeholder="Customer's age">
+                        </fieldset>
+                        <fieldset>
+                            <legend><label for="Driving_License">Driving License</label></legend>
+                            <input type="radio" id="haveDL" name="Driving_License" value="1">
+                            <label for="haveDL">Have Driving License</label>
+                            <input type="radio" id="nothaveDL" name="Driving_License" value="0">
+                            <label for="nothaveDL">Don't have Driving License</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend><label for="Region_Code">Region Code</label></legend>
+                            <input type="text" id="Region_Code" name="Region_Code" placeholder="The unique code for customer's region from 0 to 52">
+                        </fieldset>
+                        <fieldset>
+                            <legend><label for="Previously_Insured">Previously Insured</label></legend>
+                            <input type="radio" id="haveVI" name="Previously_Insured" value="1">
+                            <label for="haveVI">Have Vehicle Insurance</label>
+                            <input type="radio" id="nothaveVI" name="Previously_Insured" value="0">
+                            <label for="nothaveVI">Don't have Vehicle Insurance</label>
+                        </fieldset>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="column">
+                        <fieldset>
+                            <legend><label for="Vehicle_Damage">Vehicle Damage</label></legend>
+                            <input type="radio" id="damaged" name="Vehicle_Damage" value="1">
+                            <label for="damaged">Damaged in the past</label>
+                            <input type="radio" id="notdamage" name="Vehicle_Damage" value="0">
+                            <label for="notdamage">Not damage in the past</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend><label for="Vehicle_Age">Vehicle Age</label></legend>
+                            <input type="radio" id="1year" name="Vehicle_Age" value="1">
+                            <label for="1year">Less than 1 year</label>
+                            <input type="radio" id="12year" name="Vehicle_Age" value="2">
+                            <label for="12year">1 - 2 year</label>
+                            <input type="radio" id="2years" name="Vehicle_Age" value="3">
+                            <label for="2years">More than 2 years</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend><label for="Annual_Premium">Annual Premium</label></legend>
+                            <input type="text" id="Annual_Premium" name="Annual_Premium" placeholder="How much does this customer pay as premium in the year?">
+                        </fieldset>
+                        <fieldset>
+                            <legend><label for="Policy_Sales_Channel">Policy Sales Channel</label></legend>
+                            <input type="text" id="Policy_Sales_Channel" name="Policy_Sales_Channel" placeholder="Anonymized Code for the channel of outreaching to customer from 1 to 163">
+                        </fieldset>
+                        <fieldset>
+                            <legend><label for="Vintage">Vintage</label></legend>
+                            <input type="text" id="Vintage" name="Vintage" placeholder="How many days has this customer been associated with the company?">
+                        </fieldset>
+                    </div> 
+                    <input type="submit" value="Show Results">
+                </form>
+                
+            </div>
+        </main>
+    </body>

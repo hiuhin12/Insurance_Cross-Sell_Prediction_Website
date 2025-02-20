@@ -1,0 +1,154 @@
+/* UPLOAD */
+/* Header */
+body {
+    font-family: 'Michroma', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F1EBE6;
+}
+
+.header {
+    font-size: 12px;
+    display: flex;
+    list-style: none;
+    border: 1px solid #DD5C24;
+    background-color: #F1EBE6;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 45%;
+    margin-top: 3px;
+}
+
+.predict {
+    position: relative;
+    color: black;
+}
+
+.header .predict:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu {
+    list-style: none;
+    position: absolute;
+    border: 1px solid #DD5C24;
+    padding: 0;
+    left: 0;
+    top: 100%;
+    display: none;
+    background-color: #F1EBE6;
+}
+
+.header a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 16px 32px;
+    font-weight: bold;
+    color: black;
+}
+
+.header li:hover a:hover {
+    color: #F1EBE6;
+    background-color: #DD5C24;
+}
+
+.header .sub-menu li a {
+    color: black;
+}
+
+/* Upload Content */
+.upload-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content:center;
+    width: 1000px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.upload-container p {
+    font-family: 'Open Sans';
+}
+
+.upload-box {
+    margin-right: 50px;
+}
+
+.upload-box, .uploaded-files {
+    padding: 20px;
+}
+
+.drag-area {
+    border: 2px dashed #DD5C24;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.drag-area p {
+    margin: 10px 0;
+    color: #333;
+}
+
+.drag-area button {
+    padding: 10px 20px;
+    background-color: #DD5C24;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.uploaded-files h2 {
+    margin-bottom: 10px;
+}
+
+.uploaded-files .file {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-size: 13px;
+}
+
+.file.error {
+    border-color: red;
+    color: red;
+}
+
+.show-results-container {
+    text-align: center;
+    margin-top: 20px; /* Hoặc giá trị khác tùy thuộc vào khoảng cách bạn muốn */
+    margin-left: 550px;
+    align-items: center;
+}
+
+.enter {
+    padding: 10px 20px;
+    background-color: #DD5C24;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    display: flex; /* Điều này cho phép nó căn giữa trong container của nó */
+    justify-content: center;
+    font-family: 'Michroma';
+    font-size: 13px;
+}
+
+.enter:hover {
+    opacity: 0.9;
+}

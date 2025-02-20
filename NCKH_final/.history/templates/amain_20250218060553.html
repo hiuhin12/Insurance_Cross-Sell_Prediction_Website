@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vehicle Insurance Prediction</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+        <!-- Header menu -->
+        <ul class="header">
+            <div class="logo">
+                <img src="{{ url_for('static', filename='images/logo.png') }}">
+            </div>
+            <li><a href="#home">HOME</a></li>
+        <li class="predict">
+                <a href="#predict">PREDICT</a>
+                <ul class="sub-menu">
+                    <li><a href="{{ url_for('enterinformation') }}">Enter Information</a></li>
+                    <li><a href="{{ url_for('uploaddata') }}">Upload Data</a></li>
+                </ul>
+            </li>   
+            <li><a href="#blog">BLOG</a></li>
+            <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+
+        <!-- Main content -->
+        <div class="main-content"
+            style="background-image: url('{{ url_for('static', filename='images/main-bg.png') }}');">
+            <h1 id="home">VEHICLE INSURANCE <br/>PREDICTION</h1>
+            <p>Welcome to our vehicle insurance prediction website, where cutting-edge algorithms predict your customer's insurance needs, <br/>offering personalized quotes to ensure optimal coverage for the car with ease and precision!</p>
+            <a href="#predict"><input class="main-button" type="button" value="Predict Now!" onclick=""></a>
+                <div style="font-family: 'Open Sans';
+                            text-align: center;
+                            font-size: 15px;">Made by HKT Team.</div>
+
+        </div>
+
+        <!-- Used for -->
+        <div class="used-for">
+            <h2 id="predict">What's this website used for?</h2>
+                <div class="box">
+                    <div class="box1">
+                        <h3>For Salesman</h3>
+                        <p>Click to enter customer information and instantly see their interests or segmentation. Our analytics simplify profiling, boosting engagement strategies.</p>
+                        <form action="/enter-information" method="POST">
+                            <input type="submit" class="enter" value="Enter Information">
+                        </form>
+                        
+                    </div>
+                    <div class="box1">
+                        <h3>For Company</h3>
+                        <p>Just upload customer data to instantly view their interests and segmentation. Our analytics enhance profiling and strategy, offering a broader view of your customers.</p>
+                        <form action="/upload-data" method="POST">
+                            <input type="submit" class="upload" value="Upload Data">
+                        </form>
+                    </div>
+                </div>
+        </div>
+
+        <!-- Blog -->
+        <div class="blog-image"
+            style="background-image: url('{{ url_for('static', filename='images/blog.png') }}');">
+            <h1 id="blog">BLOG</h1>
+        </div>
+        <div class="blog-container">
+            <div class="container">
+                <img src="{{ url_for('static', filename='images/1.jpg') }}" alt="Car Insurance">
+                <h3>Compare Car Insurance Quotes (Rates in 2024)</h3>
+                <p>Offer advice on how to compare insurance rates, explain the factors that affect insurance premiums, and possibly provide tips on saving money on car insurance. Discuss the importance of understanding coverage options and how to choose a policy that best fits the individual's needs and budget.</p>
+                <button><a href="https://www.forbes.com/advisor/car-insurance/car-insurance-quotes/" target="_blank">Details</a></button>
+            </div>
+            <div class="container">
+                <img src="{{ url_for('static', filename='images/2.jpg') }}" alt="Tesla Insurance">
+                <h3>Tesla Insurance hits nearly half a million in premiums</h3>
+                <p>Tesla Insurance achieved nearly half a billion dollars in written premiums in 2023, an impressive feat highlighting a 115% year-on-year growth. Despite this financial success, the venture continues to face financial challenges, with some states showing a combined ratio of 145%.</p>
+                <button><a href="https://www.insurancebusinessmag.com/us/news/auto-motor/tesla-insurance-hits-nearly-half-a-billion-in-premiums-479768.aspx" target="_blank">Details</a></button>
+            </div>
+            <div class="container">
+                <img src="{{ url_for('static', filename='images/3.jpg') }}" alt="Car Insurance Types">
+                <h3>Types of Car Insurance: Compare 6 Coverage Options</h3>
+                <p>Car insurance policies can offer various types of coverage, such as liability for damages or injuries you cause, collision for damage to your own vehicle, comprehensive for non-collision damage, and personal injury protection or medical payments for injuries. Each provides financial safety nets.</p>
+                <button><a href="https://www.marketwatch.com/guides/insurance-services/types-of-car-insurance/" target="_blank">Details</a></button>
+            </div>
+        </div>
+            
+        <!-- Contact us -->
+        <hr> 
+        <div class="contact-container">
+            <div class="contact-form"
+                style="background-image: url('{{ url_for('static', filename='images/contact.png') }}');">
+                <h2 id="contact">CONTACT US</h2>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="E-mail" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send</button>
+            
+                <div class="contact-info">
+                    <p>Faculty of Information Systems, University of Economics and Law</p>
+                    <p>No 669, Highway 1, Quarter 3, Linh Xuan Ward, Thu Duc City, Ho Chi Minh City, Vietnam</p>
+                    <p>(+84) 817 422 199</p>
+                </div>
+            </div>
+            <div class="team-members">
+                <div class="member">
+                    <img src="{{ url_for('static', filename='images/MT.png') }}" alt="Minh Thanh">
+                        <div class="member-info">
+                            <h4>Vo Minh Thanh</h4>
+                            <p>K21416C<br>thanhvm21416c@st.uel.edu.vn<br>(+84) 817 422 199</p>
+                        </div>
+                </div>
+                <div class="member">
+                    <img src="{{ url_for('static', filename='images/AK.jpeg') }}" alt="Anh Khoa">
+                        <div class="member-info">
+                            <h4>Tran Anh Khoa</h4>
+                            <p>K21411C<br>khoata21411c@st.uel.edu.vn<br>+(84) 941 705 717</p>
+                        </div>
+                </div>
+                <div class="member">
+                    <img src="{{ url_for('static', filename='images/HH.jpg') }}" alt="Hieu Hien">
+                        <div class="member-info">
+                            <h4>Nguyen Trung Hieu Hien</h4>
+                            <p>K21411CA<br>hiennth21411ca@st.uel.edu.vn<br>+(84) 918 702 938</p>
+                        </div>
+                </div>
+                <div class="member">
+                    <img src="{{ url_for('static', filename='images/QH.jpg') }}" alt="Quoc Huy">
+                        <div class="member-info">
+                            <h4>Nguyen Quoc Huy</h4>
+                            <p>K22406C<br>huynq22406c@st.uel.edu.vn<br>+(84) 375 001 528</p>
+                        </div>
+                </div>
+                <div class="member">
+                    <img src="{{ url_for('static', filename='images/TT.jpg') }}" alt="Thanh Truc">
+                        <div class="member-info">
+                            <h4>Huynh Thi Thanh Truc</h4>
+                            <p>K22411<br>truchtt22411@st.uel.edu.vn<br>+(84) 356 770 565</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                      <img src="{{ url_for('static', filename='images/logo white.png') }}" alt="HKT Team Logo" class="footer-logo">
+                      <div class="team-HKT">
+                          <img src="{{ url_for('static', filename='images/HKT.jpg') }}" style="width:150px;">
+                          <div class="team-text">
+                          <p>Student Scientific Research Group <br/> from the Faculty of Information Systems, University of Economics and Law.</p>
+                          <div class="social-icons">
+                              <!-- Icons are placeholders and should be replaced with actual social media icons -->
+                              <a href="https://www.facebook.com/129.hiuhin" target="_blank" class="social-icon">
+                                  <i class="fab fa-facebook-f"></i>
+                              </a>
+                              <a href="https://www.linkedin.com/in/hiuhin/" target="_blank" class="social-icon">
+                                  <i class="fab fa-linkedin-in"></i>
+                              </a>
+                              <a href="https://www.instagram.com/hiu._.hinnn/" target="_blank" class="social-icon">
+                                  <i class="fab fa-instagram"></i>
+                              </a>
+                          </div>
+                          </div>
+                      </div>
+                </div>
+                <div class="footer-section" style="width:100px;">
+                    <h4>Site Map</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#predict">Predict</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Predict</h4>
+                    <ul>
+                        <li><a href="{{ url_for('enterinformation') }}">Enter Information</a></li>
+                        <li><a href="{{ url_for('uploadd') }}">Upload Data</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><a href="tel:+84817422199">+84 817 422 199</a></p>
+                    <p><a href="mailto:thanhvm21416c@st.uel.edu.vn">thanhvm21416c@st.uel.edu.vn</a></p>
+                    <address>No 669, Highway 1, Quarter 3, Linh Xuan Ward, Thu Duc City, Ho Chi Minh City, Vietnam</address>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

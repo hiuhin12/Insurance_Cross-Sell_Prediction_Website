@@ -1,0 +1,135 @@
+/* ENTERINFOR */
+/* Header */
+body {
+    font-family: 'Michroma', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F1EBE6;
+}
+
+.header {
+    font-size: 12px;
+    display: flex;
+    list-style: none;
+    border: 1px solid #DD5C24;
+    background-color: #F1EBE6;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 45%;
+    margin-top: 3px;
+}
+
+.predict {
+    position: relative;
+    color: black;
+}
+
+.header .predict:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu {
+    list-style: none;
+    position: absolute;
+    border: 1px solid #DD5C24;
+    padding: 0;
+    left: 0;
+    top: 100%;
+    display: none;
+    background-color: #F1EBE6;
+}
+
+.header a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 16px 32px;
+    font-weight: bold;
+    color: black;
+}
+
+.header li:hover a:hover {
+    color: #F1EBE6;
+    background-color: #DD5C24;
+}
+
+.header .sub-menu li a {
+    color: black;
+}
+
+/* Enter information */
+* {
+    box-sizing: border-box;
+    font-family: 'Michroma', Times, serif;
+}
+
+body {
+    background: #F1EBE6;
+    color: #333;
+    line-height: 1.7;
+}
+
+.enter-infor {
+    width: 1200px;
+    height: 580px;
+    margin: 80px auto 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+}
+
+input, label, legend {
+    font-family: 'Open Sans';
+}
+
+legend {
+    font-weight: 500;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+.enter-infor h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #DD5C24;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #DD5C24;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Michroma';
+}
+
+input[type="submit"]:hover {
+    opacity: 0.9;
+}

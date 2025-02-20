@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vehicle Insurance Prediction</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style3.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+
+<body>
+      <!-- Header menu -->
+      <ul class="header">
+        <div class="logo">
+          <img src="{{ url_for('static', filename='images/logo.png') }}">
+        </div>
+        <li><a href="{{ url_for('amain') }}">HOME</a></li>
+    <li class="predict">
+            <a href="predict.html">PREDICT</a>
+            <ul class="sub-menu">
+                <li><a href="{{ url_for('enterinformation') }}">Enter Information</a></li>
+                <li><a href="{{ url_for('uploaddata') }}">Upload Data</a></li>
+            </ul>
+        </li>   
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+    </ul>
+
+    <!-- Upload Content -->
+    <div class="upload-container">
+        
+        <div class="upload-box">
+            
+            <h2>Upload Files</h2>
+            <p>Upload a dataset containing customer information here.</p>
+            <div class="drag-area">
+                <input type="file" class="upload" name="file" hidden multiple>
+                <div class="icon">
+                  <img src="{{ url_for('static', filename='images/upload.png') }}">
+                </div>
+                <p>Drag and drop files here</p>
+                <p>- OR -</p>
+                <input type="file" class="upload" name="file" accept=".csv, .txt, .xlsx, .json" hidden multiple><button>Browse Files</button>
+            </div>
+        </div>
+        <div class="uploaded-files">
+            <h2>Uploaded Files</h2>
+        </div>
+    </div>
+    
+    <div class="show-results-container">
+        <form action="/upload-data/upload" method="POST" enctype="multipart/form-data">
+            <input type="file" class="upload" name="file" accept=".csv, .txt, .xlsx, .json">
+            <input type="submit" class="enter" value="Show Results"> 
+
+            
+        </form>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const dragArea = document.querySelector('.drag-area');
+            // Đây là phần tử input type file mới được thêm vào
+            const fileInput = document.querySelector('input[type="file"]');
+            const browseButton = dragArea.querySelector('button');
+        
+            // Kích hoạt hộp thoại file khi nút được nhấp
+            browseButton.addEventListener('click', () => fileInput.click());
+        
+            // Khi file được chọn, xử lý chúng bằng hàm handleFiles
+            fileInput.addEventListener('change', function() {
+                handleFiles(this.files); // this.files chứa các file đã được chọn
+            }, false);
+        
+            // Ngăn chặn hành vi mặc định khi kéo thả file vào drag area
+            ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+                dragArea.addEventListener(eventName, preventDefaults, false);
+            });
+        
+            // Tăng cường hiệu ứng khi file được kéo vào khu vực kéo thả
+            ['dragenter', 'dragover'].forEach(eventName => {
+                dragArea.addEventListener(eventName, highlight, false);
+            });
+        
+            // Giảm hiệu ứng khi file rời khỏi khu vực kéo thả hoặc được thả vào
+            ['dragleave', 'drop'].forEach(eventName => {
+                dragArea.addEventListener(eventName, unhighlight, false);
+            });
+        
+            // Xử lý sự kiện thả file
+            dragArea.addEventListener('drop', handleDrop, false);
+        
+            function preventDefaults(e) {
+                e.preventDefault();
+                e.stopPropagation();
+            }
+        
+            function highlight(e) {
+                dragArea.classList.add('highlight');
+            }
+        
+            function unhighlight(e) {
+                dragArea.classList.remove('highlight');
+            }
+        
+            function handleDrop(e) {
+                let dt = e.dataTransfer;
+                let files = dt.files;
+                handleFiles(files);
+            }
+        
+            function handleFiles(files) {
+                ([...files]).forEach(uploadFile);
+            }
+        
+            function uploadFile(file) {
+                let uploadArea = document.querySelector('.uploaded-files');
+                let fileElem = document.createElement('div');
+                fileElem.classList.add('file');
+                fileElem.textContent = file.name;
+                uploadArea.appendChild(fileElem);
+        
+                // TODO: Bạn sẽ cần triển khai quy trình tải file lên thực tế ở đây
+            }
+        
+        });
+        
+    </script>
+</body>
+</html>
