@@ -1,60 +1,69 @@
-# Optimizing Inventory Management through Product Classification with K-MEANS, K-MEANS++, and K-MEDOIDS 📊📈
+# Vehicle Insurance Cross-Sell Prediction with Machine Learning and Customer Segmentation 🚗📊
 
 ## Introduction
-This project analyzes and optimizes inventory management using machine learning clustering algorithms such as K-Means, K-Means++, and K-Medoids. The goal is to improve inventory turnover and reduce excess stock through data-driven insights.
+This project focuses on predicting vehicle insurance cross-sell opportunities using advanced machine learning models. The goal is to identify potential customers for vehicle insurance based on existing health insurance data, utilizing classification algorithms and customer segmentation techniques to enhance sales strategies.
 
 ## Contents
 
 1. **Source Code**
-   - **Python**: The source code for data analysis and machine learning models is implemented in Python. This includes notebooks and scripts for data preprocessing, clustering algorithms (K-Means, K-Means++, K-Medoids), and visualization.
+   - **Python**: The core machine learning models and data processing scripts are implemented in Python, utilizing libraries such as Scikit-Learn, CatBoost, and Flask.
      - **Files:**
-       - `Fullcode.ipynb`: Contains the complete Python code for exploratory data analysis, data pre-processing, determining the optimal number of clusters, standard K-Means clustering, K-Means++ clustering, K-Medoids clustering, and evaluating the clustering performance.
+       - `app.py`: The main backend application built using Flask for handling customer input, prediction, and segmentation.
+       - `data_preprocessing.py`: Preprocessing pipeline for cleaning and transforming data before model inference.
+       - `trained_catboost_classifier.pkl`:  Pretrained CatBoost model used for customer segmentation.
     
-2. **Power BI Files**
-   - `Product_dashboard.pbix`: This dashboard displays stock quantity over time and analyzes inventory levels by product category.
-   - `Sale_dashboard.pbix`: This dashboard focuses on analyzing sales quantity and total cost, as well as sales quantity by product category.
-   - `Kmeans_plus_insight_dashboard.pbix`: This dashboard provides insights from K-Means++ clustering, including analysis of product clusters based on sales quantity, stock quantity, and total cost.
+2. **Website**
+   - `amain.html`: Main homepage of the insurance prediction system.
+   - `enterinfor.html`: Form for entering customer details manually.
+   - `enterinfor-result.html`: Page displaying the prediction results.
+   - `upload.html`: Page for batch uploading customer data.
+   - `upload-result.html`: Page displaying batch processing results.
        
-3. **Report Files**
-   - **Files:** `235MI7101_Group6_FinalProject.docx`, `235MI7101_Group6_FinalProject.pdf`
-   - **Description:** The study utilizes K-Means, K-Means++, and K-Medoids clustering algorithms to classify products, aiming to enhance inventory management. By analyzing data from e-commerce platforms, the research demonstrates that clustering can reduce holding costs, prevent overstocking, and improve decision-making processes in inventory control​​​​​​.
+3. **Machine Learning Models**
+   - **Voting Classifier Model:** Predicts customer interest in vehicle insurance.
+   - **CatBoost Classifier Model:** Segments customers into relevant groups based on demographic and behavioral data.
 
 4. **Datasets**
    - **Data Source:**
-     - Looker Ecommerce BigQuery Dataset from [Kaggle.com](https://www.kaggle.com/datasets/mustafakeser4/looker-ecommerce-bigquery-dataset?fbclid=IwZXh0bgNhZW0CMTAAAR2_ZUOvZ-82FVKHHkn-z1GfBxC_tZ_D15G5-gUaj7iAv8lekVpyKzZv26s_aem_CLkHKGJwHhXB4-EgF0NjBg&select=order_items.csv).
+     - Health Insurance Cross Sell Prediction 🏠 🏥 from [Kaggle.com](https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction).
      - **Files:**
-         - `distribution_centers.csv`: Contains information about distribution centers including ID, name, latitude, and longitude. ​
-         - `events.csv`: Contains event details including event ID, user ID, session information, timestamps, location, browser, traffic source, and event type.
-         - `inventory_items.csv`: Contains inventory item details including item ID, product information, timestamps, cost, and associated distribution center.
-         - `order_items.csv`: Contains details of items in each order, including order ID, product ID, status, and sale price.
-         - `orders.csv`: Contains order information including order ID, user ID, status, and timestamps for order events.
-         - `products.csv`: Contains product information including cost, category, name, brand, and distribution center ID.
-         - `users.csv`: Contains user details including personal information, address, and traffic source.
-   - **Cleaned Data:**
-     - `Data_model.csv`
-       - **Description:** Contains detailed product information such as product ID, name, category, sales quantity, and stock quantity. The data is used for analyzing and optimizing inventory management.
-     - `Clustering_data.csv`
-       - **Description:** This data supports product clustering to optimize inventory management using clustering algorithms.
+         - `customer_data.csv`: Contains preprocessed customer attributes for training and testing the models. ​
+         - Features include Gender, Age, Driving License, Region Code, Previously Insured, Vehicle Age, Vehicle Damage, Annual Premium, Policy Sales Channel, Vintage, Response.
 
-5. **Gantt Chart**
-   - The Gantt chart outlines the project timeline from June 25, 2024, to July 30, 2024, covering phases from idea research, data preparation, analysis, and model evaluation to conclusion and presentation preparation, with all tasks completed on schedule.    
+## How It Works
+
+1. **Enter Customer Data**
+   - Manually input customer information through the web form.
+   - Upload a CSV file containing customer data for bulk predictions.
+
+2. **Prediction & Segmentation**
+   - The Voting Classifier predicts the likelihood of a customer purchasing vehicle insurance.
+   - The CatBoost Classifier segments customers into groups for targeted marketing strategies.
+  
+3. **Results Displayed**
+   - The website provides instant feedback on customer predictions and segmentation results.
+  
+## Deployment
+   - **Flask-based Backend:** The website provides instant feedback on customer predictions and segmentation results.
+   - **Frontend:** Static web pages with dynamic content rendering.
+   - **Data Processing:** Implemented with `data_preprocessing.py` to handle missing values, scaling, and feature engineering.
    
 ## Further Information
 
 **Contact Person for Questions:**  
-   - Name: Nguyen Thi Ngoc Giau 
-   - Email: giauntn21411ca@st.uel.edu.vn
+   - Name: Vo Minh Thanh 
+   - Email: thanhvm21416c@st.uel.edu.vn
 
 **Include Credits**
-   - Leader: Nguyen Thi Ngoc Giau - K214111970
+   - Leader: Vo Minh Thanh
    - Member:
-     + Nguyen Trung Hieu Hien - K214111971
-     + Nguyen Thi Thu Ngan - K214111974
-     + Nguyen Trinh Thao Nghi - K214111975
-     + Tran Duc Anh Duy - K214110859
+     + Tran Anh Khoa
+     + Nguyen Trung Hieu Hien
+     + Nguyen Quoc Huy
+     + Huynh Thi Thanh Truc
 
-**Keywords:** Optimize Inventory, Inventory Management, Clustering Algorithms, E-commerce, K-Means, K-Means++, K-Medoids
+**Keywords:** Insurance, Machine Learning, Customer Segmentation, Cross-Selling, Vehicle Insurance, Predictive Analytics
 
 **Language:** English
 
-**Date of Data Collection:** July, 2024
+**Date of Data Collection:** September, 2023
